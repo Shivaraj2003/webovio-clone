@@ -310,6 +310,7 @@ body {
         background-color: #fff;
         margin-top: -120px;
         margin-right: 20%;
+        margin-bottom: 100px;
                
 
 
@@ -321,12 +322,61 @@ body {
 }
 
 .footer{
-    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
     height: 100vh;
     background-image: url('images/FooterBGR.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
-    margin: 0;
+}
+
+.contact{
+    width: 50vw;
+    margin-top: 20%;
+    display: flex;
+    font-display: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-left: 5%;
+    
+}
+.contact h3{
+    margin-top: -10px;
+}
+
+.footer-items{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.row div{
+    display: flex;
+    justify-content: center;
+}
+
+.row li{
+    padding: 10px;
+    padding-left: 0px;
+    color: #b6c117;
+}
+.footer-items li{
+list-style-type: none;
+}
+
+.footer-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-bottom: 0px;
+    color: #b6c117;
+    margin-bottom: 20px;
 }
