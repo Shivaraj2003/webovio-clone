@@ -62,19 +62,24 @@ body {
     font-weight: 700;
 }
 
-.touch, .more ,.moreCase {
+.touch,
+.more,
+.moreCase {
     text-decoration: underline;
     color: rgb(239, 239, 10);
     font-size: 1.2em;
     font-weight: 700;
 }
-.more,.moreCase{
-    color:grey;
+
+.more,
+.moreCase {
+    color: grey;
 }
 
-.linkCase{
+.linkCase {
     margin-top: 100px;
 }
+
 .clients {
     padding: 30px;
     width: 80%;
@@ -84,7 +89,7 @@ body {
     margin-bottom: 200px;
     box-shadow: 2px;
     margin-right: 20px;
-        box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 
 }
 
@@ -93,7 +98,7 @@ body {
     justify-content: space-around;
 }
 
-.page-2{
+.page-2 {
     padding: 170px;
     margin: 0 8%;
     padding-top: 130px;
@@ -102,64 +107,67 @@ body {
     justify-content: center;
     align-self: center;
     padding-right: 0;
-    width:80%;
+    width: 80%;
     height: 100%;
     gap: 20px;
 
 }
 
-.page-info{
+.page-info {
     display: flex;
     justify-content: space-between;
     /* gap: 5px; */
 
 }
-.page-info{
+
+.page-info {
     width: 80%;
     height: 100%;
 }
 
 
-.page-info h1{
+.page-info h1 {
     font-size: 30px;
 }
-.page-info h1{
+
+.page-info h1 {
     margin-bottom: -20px;
 }
 
-.page-info p{
+.page-info p {
     margin-top: 50px;
 }
 
-.founder{
+.founder {
     width: 100%;
     padding: 15px;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     margin-top: -5px;
     margin-left: 100px;
     padding-bottom: 65px;
 }
 
-.founder p{
-font-size: 20px;
+.founder p {
+    font-size: 20px;
 }
 
-.CEO{
+.CEO {
     display: flex;
     justify-content: start;
     align-items: start;
     gap: 10px;
-    
+
 }
 
-.CEO p{
+.CEO p {
     font-size: 15px;
 }
-.CEO h3{
+
+.CEO h3 {
     margin-bottom: -50px;
 }
 
-.project{
+.project {
     display: flex;
     margin: 12%;
     margin-top: 8%;
@@ -167,76 +175,158 @@ font-size: 20px;
     align-items: center;
 }
 
-.p-desc{
-margin-left: 15%;
+.p-desc {
+    margin-left: 15%;
 }
 
-.project-1  {
+.project-1 {
     display: flex;
     margin: 2%;
     margin-right: 12%;
     margin-bottom: 200px;
 }
 
-.right{
+.right {
     margin-left: 150px;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.project-2  {
+.project-2 {
     display: flex;
     margin: 2%;
     margin-left: 12%;
     margin-bottom: 200px;
 }
-.right2{
+
+.right2 {
     margin-right: 150px;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.comment-1{
+.comment-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 30%;
     padding: 15px;
     position: absolute;
-    margin-left: 350px;
-    margin-top:-150px ;
+    margin-left: 42%;
+    margin-top: -150px;
     background-color: white;
     column-gap: 2;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     border-radius: 2%;
 }
 
-.author1{
+.author1 {
     margin-top: 1%;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 10px;
 }
- 
- .author1 h3{
-    margin-bottom: -15px;
- }
 
- .comment-2{
+.author1 h3 {
+    margin-bottom: -15px;
+}
+
+.comment-2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 30%;
     padding: 15px;
     position: absolute;
-    margin-left: -175px;
-    margin-top:-150px ;
+    margin-left: -20%;
+    margin-top: -150px;
     background-color: white;
     column-gap: 2;
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     border-radius: 2%;
 
+}
+
+.services {
+    height: 100vh;
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+
+#heading {
+    width: 55%;
+    font-size: 40px;
+    color: rgb(12, 42, 12);
+}
+
+.service-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 5%;
+    margin-bottom: auto;
+
+}
+
+.service-item {
+    height: 410px;
+    width: 25%;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1%;
+}
+
+.service-list h2 {
+    width: 79%;
+}
+
+.para {
+    min-height: 30%;
+    margin-bottom: 0;
+}
+
+.readMore {
+    margin-top: 50px;
+}
+
+.service-1 {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    padding: 15px;
+}
+
+.slogan{
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+       
+        padding:2% ;
+        position: absolute;
+        background-color: #fff;
+        margin-top: -120px;
+        margin-right: 20%;
+               
+
+
+}
+
+.slogan h1{
+       font-size: 60px;
+       width: 70%;
+}
+
+.footer{
+    
+    height: 100vh;
+    background-image: url('images/FooterBGR.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    margin: 0;
 }
