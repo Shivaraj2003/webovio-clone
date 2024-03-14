@@ -559,3 +559,119 @@ a{
     text-decoration: none;
     color: white;
 }
+
+
+
+@media(max-width:1224px){
+    .content{
+        max-width: 60%;
+    }
+
+.page-info{
+    width: 100%;
+}
+    .clients{
+        position: unset;
+        margin: auto;
+    }
+    
+  .content {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .content h1{
+    font-size: 45px;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .page-2{
+    padding: unset;
+    padding-top: 0px;
+  }
+
+.image{
+    width:100%;
+}
+  .comment-1{
+    position: unset;
+    margin-top:unset;
+    margin-left: unset;
+    width: inherit;
+  }
+
+  .comment-2{
+    position: unset;
+    margin-top:unset;
+    margin-left: unset;
+    width: inherit;
+  }
+  .project-right,.project-right2{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+  }
+  .project-right2{
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .project-right h1, .project-right2 h1{
+    text-align: center;
+  }
+
+  .project-1{
+    /* margin-right: 0; */
+    margin-bottom: unset;
+  }
+  .project-2{
+    margin-bottom: 0;
+    /* margin-left: 0; */
+  }
+
+  .services{
+    margin-left: unset;
+    margin-bottom: unset;
+    margin: auto;
+  }
+  #heading{
+    width: 100%;
+  }
+
+  .service-item{
+    padding: 10px;
+  }
+.slogan{
+    position: unset;
+    width: inherit;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.slogan h1{
+    width: unset;
+    font-size: 45px;
+}
+.touch{
+    margin-left: unset;
+}
+
+.contact{
+    width: 100vw;
+    margin-left: 0;
+    margin-top: 0;
+}
+.header{
+    height: fit-content;
+}
+.footer{
+    justify-content: start;
+}
+}
