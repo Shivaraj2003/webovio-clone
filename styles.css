@@ -71,6 +71,9 @@ body {
     font-weight: 700;
 }
 
+.touch{
+    margin-left: 15%;
+}
 .touch,
 .more,
 .moreCase {
@@ -105,6 +108,14 @@ body {
 .c-container {
     display: flex;
     justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+
+.c-container img {
+    max-width: 100%;
+    height: auto; 
 }
 
 .page-2 {
@@ -209,6 +220,8 @@ body {
     margin-bottom: 200px;
 }
 
+
+
 .right2 {
     margin-right: 150px;
     display: flex;
@@ -223,7 +236,7 @@ body {
     width: 30%;
     padding: 15px;
     position: absolute;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: -150px;
     background-color: white;
     column-gap: 2;
@@ -250,7 +263,7 @@ body {
     width: 30%;
     padding: 15px;
     position: absolute;
-    margin-left: -20%;
+    margin-left: -5%;
     margin-top: -150px;
     background-color: white;
     column-gap: 2;
@@ -317,7 +330,6 @@ body {
 
 .slogan{
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-       
         padding:2% ;
         position: absolute;
         background-color: #fff;
@@ -330,8 +342,10 @@ body {
 }
 
 .slogan h1{
-       font-size: 60px;
+       font-size: 55px;
        width: 70%;
+       margin: auto;
+       color: #414325;
 }
 
 .footer{
@@ -398,6 +412,9 @@ list-style-type: none;
 /* Media Query to make responsive*/
 @media screen and (max-width: 768px) {
  
+ body{
+    margin: auto;
+ }
 
   .nav {
     flex-direction: column;
@@ -405,8 +422,7 @@ list-style-type: none;
   }
 
   .nav-items {
-    flex-direction: column;
-    align-items: center;
+    display: none;
   }
 
   .header {
@@ -419,6 +435,9 @@ list-style-type: none;
     margin-right: auto;
     text-align: center;
   }
+  .content h1{
+    font-size: 45px;
+  }
 
   .subtitle {
     font-size: 1rem;
@@ -429,13 +448,18 @@ list-style-type: none;
   }
 
   .clients {
-    display: none; 
+    display: flex; 
+    width: auto;
+    position: unset;
+    margin-top: 2rem;
+    margin-bottom: unset;
   }
 
   .page-2 {
     flex-direction: column;
     align-items: center;
     padding: 50px 10px;
+   
   }
 
   .page-info {
@@ -515,4 +539,23 @@ list-style-type: none;
   .row div {
     margin-bottom: 10px;
   }
+
+  .image{
+    width: 100%;
+  }
+  .p-heading{
+    text-align: center;
+  }
+
+  .project-1 {
+    display: flex;
+    margin: 2%;
+    margin-left: 12%;
+    margin-bottom: 200px;
+}
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
