@@ -56,10 +56,10 @@ body {
 }
 
 .content {
-    max-width: 45%;
-    margin-top: 100px;
+    max-width: 35%;
+    margin-top: 80px;
     color: white;
-    margin-left: 125px;
+    margin-left: 250px;
     padding: 5px;
     font-size: 1.1rem;
     display: flex;
@@ -67,7 +67,7 @@ body {
 }
 
 .content h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 700;
 }
 
@@ -88,7 +88,7 @@ body {
     color: grey;
 }
 
-.linkCase {
+.link-Case {
     margin-top: 50px;
 }
 
@@ -206,7 +206,7 @@ body {
     margin-bottom: 200px;
 }
 
-.right {
+.project-right {
     margin-left: 150px;
     display: flex;
     flex-direction: column;
@@ -222,7 +222,7 @@ body {
 
 
 
-.right2 {
+.project-right2 {
     margin-right: 150px;
     display: flex;
     flex-direction: column;
@@ -496,8 +496,8 @@ list-style-type: none;
     position: static;
   }
 
-  .right,
-  .right2 {
+  .project-right,
+  .project-right2 {
     margin: 0;
   }
 
