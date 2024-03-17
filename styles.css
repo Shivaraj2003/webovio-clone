@@ -33,6 +33,8 @@ body {
 
 .logo-img {
     margin: 25px;
+    margin-right: 0;
+
 }
 
 .nav-items {
@@ -565,7 +567,7 @@ a{
 
 
 
-@media(max-width:1024px) and (min-width:769px){
+@media(max-width:1440px) and (min-width:769px){
 
   .container{
     height: unset;
